@@ -1,0 +1,9 @@
+
+version: "3.5"
+
+services:  
+  exchange_engine:
+    image: exchange_engine
+    container_name: exchange_engine
+    build:
+      context: ./api
